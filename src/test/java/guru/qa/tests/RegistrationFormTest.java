@@ -49,6 +49,7 @@ public class RegistrationFormTest extends TestBase {
     }
 
     @Test
+    @Tag("simple")
     void fillFormTest() {
         step("Open registration page", () ->
                 registrationFormPage.openPage());
